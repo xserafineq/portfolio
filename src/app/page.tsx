@@ -21,7 +21,7 @@ export default function Home() {
                     <Link href="/">O Mnie</Link>
                 </nav>
                 <div className={"about-me relative z-10 w-full h-[300px] mt-[20px] flex flex-col text-center justify-center items-center gap-8"}>
-                    <p className={"text-5xl font-medium"}>{"<MATEUSZ SERAFIN/>"}</p>
+                    <p className={"text-5xl font-medium"}>{"<MATEUSZ/>"}</p>
                     <span>
                         <p className={"text-2xl"}>Jestem studentem Informatyki na <Link href={"https://www.ur.edu.pl/pl/strona-glowna"} className={"text-[#78df71]"}>Uniwersytecie Rzeszowskim</Link></p>
                         <p className={"text-xl"}>Tworzę projekty, które zamieniają pomysły w działający kod.</p>
