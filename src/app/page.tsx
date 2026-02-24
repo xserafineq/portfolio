@@ -23,9 +23,9 @@ export default function Home() {
                 </nav>
                 <div className={"about-me relative z-10 w-full h-[300px] mt-[20px] flex flex-col text-center justify-center items-center gap-8"}>
                     <p className={"text-5xl font-medium"}>{"<MATEUSZ SERAFIN/>"}</p>
-                    <span>
-                        <p className={"text-2xl"}>Jestem studentem Informatyki na <Link href={"https://www.ur.edu.pl/pl/strona-glowna"} className={"text-[#78df71]"}>Uniwersytecie Rzeszowskim</Link></p>
-                        <p className={"text-xl"}>Tworzę projekty, które zamieniają pomysły w działający kod.</p>
+                    <span className={"p-4"}>
+                        <p className={"text-2xl tracking-widest"}>Jestem studentem Informatyki na <Link href={"https://www.ur.edu.pl/pl/strona-glowna"} className={"text-[#78df71]"}>Uniwersytecie Rzeszowskim</Link></p>
+                        <p className={"text-xl tracking-widest"}>Tworzę projekty, które zamieniają pomysły w działający kod.</p>
                     </span>
                 </div>
                 <div className={"buttons relative z-10 flex flex-row w-full h-[80px]  items-center justify-center gap-8 text-2xl font-medium"}>
@@ -35,8 +35,9 @@ export default function Home() {
                 <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-full h-[160px] bg-[#7ae376] opacity-30 blur-[100px] rounded-[100%]"></div>
             </header>
             <div className={"projects-section bg-[#131313] flex flex-col w-full items-center pt-20"}>
-                    <p className={"text-4xl font-medium flex flex-row gap-3"}><Rocket className={"pt-1"} size={42}/>Projekty</p>
-                <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-15 justify-center"}>
+                    {/*<p className={"text-6xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E]"}><Rocket className={"pt-1"} size={60}/>Projekty</p>*/}
+                <p className={"text-6xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Projekty</p>
+                <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-20 justify-center"}>
                     <Card title={"dietetyk+"}></Card>
                     <Card title={"dietetyk+"}></Card>
                     <Card title={"dietetyk+"}></Card>
