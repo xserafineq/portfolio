@@ -28,8 +28,8 @@ export default function Home() {
                     </span>
                 </div>
                 <div className={"buttons relative z-10 flex flex-row w-full h-[80px]  items-center justify-center gap-8 text-2xl font-medium"}>
-                    <Link href="https://github.com/xserafineq" className={"bg-[#78df71] text-2xl w-[160px] items-center justify-center flex flex-row p-3 rounded-[25px] gap-1"}><Rocket size={24}/>Projekty</Link>
-                    <Link href={"https://github.com/xserafineq"} className={"text-[#78df71] text-2xl w-[140px] border-3 flex flex-row justify-center border-[#78df71] p-3 items-center rounded-[20px] gap-1"}><Github size={24} /> Github</Link>
+                    <Link target={"_blank"}  href="https://github.com/xserafineq" className={"bg-[#78df71] text-2xl w-[160px] items-center justify-center flex flex-row p-3 rounded-[25px] gap-1"}><Rocket size={24}/>Projekty</Link>
+                    <Link target={"_blank"} href={"https://github.com/xserafineq"} className={"text-[#78df71] text-2xl w-[140px] border-3 flex flex-row justify-center border-[#78df71] p-3 items-center rounded-[20px] gap-1"}><Github size={24} /> Github</Link>
                 </div>
                 <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-full h-[160px] bg-[#7ae376] opacity-30 blur-[100px] rounded-[100%]"></div>
             </header>
