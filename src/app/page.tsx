@@ -2,10 +2,11 @@ import Link from "next/link";
 import { Github } from 'lucide-react';
 import {Rocket} from "lucide-react";
 import Squares from './Squares';
+import Card from '../components/ui/Card';
 export default function Home() {
     return (
-        <div className={""}>
-            <header className="h-[800px] bg-[] bg-dark flex relative flex-col bg-[#1c1e22] overflow-hidden">
+        <div>
+            <header className="h-[800px] bg-[] bg-dark flex relative flex-col bg-[#1c1e22] overflow-hidden shadow-xl shadow-[#0c0c0c]">
                 <div className="absolute inset-0 z-0">
                     <Squares
                         speed={0.29}
@@ -33,6 +34,19 @@ export default function Home() {
                 </div>
                 <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-full h-[160px] bg-[#7ae376] opacity-30 blur-[100px] rounded-[100%]"></div>
             </header>
+            <div className={"projects-section bg-[#131313] flex flex-col w-full items-center pt-20"}>
+                    <p className={"text-4xl font-medium flex flex-row gap-3"}><Rocket className={"pt-1"} size={42}/>Projekty</p>
+                <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-15 justify-center"}>
+                    <Card title={"dietetyk+"}></Card>
+                    <Card title={"dietetyk+"}></Card>
+                    <Card title={"dietetyk+"}></Card>
+                    <Card title={"dietetyk+"}></Card>
+                    <Card title={"dietetyk+"}></Card>
+                </div>
+            </div>
+            <footer>
+
+            </footer>
         </div>
     );
 }
