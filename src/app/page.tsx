@@ -3,10 +3,12 @@ import { Github } from 'lucide-react';
 import {Rocket} from "lucide-react";
 import Squares from './Squares';
 import Card from '../components/ui/Card';
+
+
 export default function Home() {
     return (
         <div>
-            <header className="h-[800px] bg-[] bg-dark flex relative flex-col bg-[#1c1e22] overflow-hidden shadow-xl shadow-[#0c0c0c]">
+            <header className="h-[100vh] bg-[] bg-dark flex relative flex-col bg-[#1c1e22] overflow-hidden shadow-xl ">
                 <div className="absolute inset-0 z-0">
                     <Squares
                         speed={0.29}
@@ -34,8 +36,10 @@ export default function Home() {
                 </div>
                 <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-full h-[160px] bg-[#7ae376] opacity-30 blur-[100px] rounded-[100%]"></div>
             </header>
-            <div className={"projects-section bg-[#131313] flex flex-col w-full items-center pt-20"}>
-                    {/*<p className={"text-6xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E]"}><Rocket className={"pt-1"} size={60}/>Projekty</p>*/}
+            <div className={"projects-section bg-[url('/projects-bg.svg')] bg-cover  flex flex-col w-full items-center"}>
+                <div className={"wavetop w-full h-[150px]"}>
+                    <svg id="visual" viewBox="0 0 1920 600" width="1920" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M0 101L45.7 97C91.3 93 182.7 85 274.2 80.5C365.7 76 457.3 75 548.8 79.5C640.3 84 731.7 94 823 97.5C914.3 101 1005.7 98 1097 96.8C1188.3 95.7 1279.7 96.3 1371.2 93C1462.7 89.7 1554.3 82.3 1645.8 83.3C1737.3 84.3 1828.7 93.7 1874.3 98.3L1920 103L1920 0L1874.3 0C1828.7 0 1737.3 0 1645.8 0C1554.3 0 1462.7 0 1371.2 0C1279.7 0 1188.3 0 1097 0C1005.7 0 914.3 0 823 0C731.7 0 640.3 0 548.8 0C457.3 0 365.7 0 274.2 0C182.7 0 91.3 0 45.7 0L0 0Z" fill="#161616" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+                </div>
                 <p className={"text-6xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Projekty</p>
                 <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-20 justify-center"}>
                     <Card title={"dietetyk+"}></Card>
