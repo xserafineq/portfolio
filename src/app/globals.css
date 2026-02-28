@@ -2,8 +2,13 @@
 
 :root {
     --background: #0f1115;
-    --foreground: #ffffff;
+    --foreground: #f3f3f3;
     --accent-green: #4ade80;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
