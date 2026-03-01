@@ -4,7 +4,6 @@ import ProjectModal from "@/components/ui/ProjectModal";
 
 
 export default function Card({title,description,stack,repo}:{title:string, description:string, stack: string[],repo: string}) {
-    const [modalShow, setModalShow] = React.useState(false);
     return(
         <div className={"card max-w-md flex flex-col bg-[#0F0F0F] pb-2 rounded-b-[15px] rounded-t-[15px]"}>
             <img className={"flex w-[250px] border-3 border-[#78df71] rounded-t-[15px]"}
