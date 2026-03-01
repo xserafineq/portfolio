@@ -49,9 +49,9 @@ export default function Home() {
                     <StackCard type={"bazy danych"} language={["MYSQL","POSTGRES","SQL"]}/>
                 </div>
                 <p id={"projects"} className={"text-7xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Projekty</p>
-                <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-20 justify-center"}>
+                <div className={"projects-section flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-20 justify-center"}>
                     <Card title={"dietetyk"} description={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
-                          stack={["JS", "TS","C#"]} repo={"https://github.com/xserafineq/dietetykplus"}></Card>
+                          stack={["JS", "TS","C#"]} repo={"https://github.com/xserafineq/dietetykplus"}/>
                 </div>
                 <svg id="visual" viewBox="0 0 960 100" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M0 43L26.7 45C53.3 47 106.7 51 160 51.8C213.3 52.7 266.7 50.3 320 50.8C373.3 51.3 426.7 54.7 480 52.8C533.3 51 586.7 44 640 43.7C693.3 43.3 746.7 49.7 800 53.2C853.3 56.7 906.7 57.3 933.3 57.7L960 58L960 101L933.3 101C906.7 101 853.3 101 800 101C746.7 101 693.3 101 640 101C586.7 101 533.3 101 480 101C426.7 101 373.3 101 320 101C266.7 101 213.3 101 160 101C106.7 101 53.3 101 26.7 101L0 101Z" fill="#161616"></path></svg>
             </div>
