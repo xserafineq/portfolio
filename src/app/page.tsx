@@ -42,7 +42,7 @@ export default function Home() {
                     <svg id="visual" viewBox="0 0 1920 600" width="1920" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1"><path d="M0 101L45.7 97C91.3 93 182.7 85 274.2 80.5C365.7 76 457.3 75 548.8 79.5C640.3 84 731.7 94 823 97.5C914.3 101 1005.7 98 1097 96.8C1188.3 95.7 1279.7 96.3 1371.2 93C1462.7 89.7 1554.3 82.3 1645.8 83.3C1737.3 84.3 1828.7 93.7 1874.3 98.3L1920 103L1920 0L1874.3 0C1828.7 0 1737.3 0 1645.8 0C1554.3 0 1462.7 0 1371.2 0C1279.7 0 1188.3 0 1097 0C1005.7 0 914.3 0 823 0C731.7 0 640.3 0 548.8 0C457.3 0 365.7 0 274.2 0C182.7 0 91.3 0 45.7 0L0 0Z" fill="#161616"></path></svg>
                 </div>
 
-                <p id={"stack"} className={"text-5xl md:text-7xl text-[#7ae376] font-medium flex flex-row [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Technologie</p>
+                <div id={"stack"} className={"text-5xl md:text-7xl text-[#7ae376] font-medium flex flex-row [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Technologie</div>
                 <div className={"projects flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-40 gap-30 justify-center"}>
                     <StackCard type={"frontend"} language={["REACT","TS","NEXT.js","TW"]}/>
                     <StackCard type={"backend"} language={["C#","EF","NETCORE"]}/>
