@@ -48,7 +48,7 @@ export default function Home() {
                     <StackCard type={"backend"} language={["C#","EF","NETCORE"]}/>
                     <StackCard type={"bazy danych"} language={["MYSQL","POSTGRES","SQL"]}/>
                 </div>
-                <p id={"projects"} className={"text-5xl md:text-7xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Projekty</p>
+                <div id={"projects"} className={"text-5xl md:text-7xl text-[#7ae376] font-medium flex flex-row gap-3 [text-shadow:_5px_-4px_0px_#32802E] tracking-widest"}>Projekty</div>
                 <div className={"projects-section flex flex-wrap w-3/4 h-auto bg-red mt-20 mb-20 gap-20 justify-center"}>
                     <Card title={"dietetyk"} description={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
                           stack={["JS", "TS","C#"]} repo={"https://github.com/xserafineq/dietetykplus"}/>
