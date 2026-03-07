@@ -8,7 +8,7 @@ import {
     DialogHeader,
     DialogTitle,
     DialogTrigger,
-} from "@/components/ui/dialog"
+} from "@/components/ui/shadcn/dialog"
 import React from "react";
 import Link from "next/link";
 import icon from "../../features/icons";
