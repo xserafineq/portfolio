@@ -24,7 +24,7 @@ export default function ProjectModal({title,description,stack,repo}: {title: str
                 <DialogHeader className={"#1c1e22"}>
                     <DialogTitle className={"text-xl text-gray-200"}>{"PROJEKT / " +  title.toUpperCase()}</DialogTitle>
                     <DialogDescription>
-                        <img src={"https://zapodaj.net/images/91df5790c8012.png"} className={"w-full"}/>
+                        <img src={"https://zapodaj.net/images/91df5790c8012.png"} className={"w-auto"}/>
                         <div className={"mt-2 text-justify"}>
                             {description.toUpperCase()}
                         </div>
